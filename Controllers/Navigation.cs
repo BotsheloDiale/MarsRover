@@ -82,7 +82,7 @@ namespace MarsRover.Controllers
                     }
                 }
                 Console.WriteLine("********  Successful transmission...  ********");
-                return ("\tCurrent Rover position  - "+ x + " " + y + " " + direction);
+                return ("\tCurrent Rover position  - "+ x + " " + y + " " + direction +"\n");
             } catch (Exception ) {
                 Console.WriteLine("Input Error!\n \t Example input : 25 25 12 19 S MMRLMMMMML");
                 return ("Transmission to the Mars Rover has Failed!\n\n");
