@@ -2,10 +2,10 @@
 Mars Rover is a simple console App that mimics a simple navigation system, with a list of given instruction it will
 determine the destination.
 
-#Program build
+# Program build
     .NetCore 2.1 Application (Easy to set-up).
 
-#Using the Program
+# Using the Program
     From the project folder run the below mentioned command.
     **form running this command you should get an instruction of what sort of input is expected ($> dotnet run )
     $> dotnet run 8 10 1 2 E MMLMRMMRRMML 
@@ -32,4 +32,13 @@ determine the destination.
         - simply because i was testing as i was building classes and these cases test for most of the forseable use cases.
         - TDD is simpler for me cause then by the time you intergrate there's less snags.
 
-#DESIGN DECISION
+# DESIGN DECISION
+    ## Early stages 
+                - the 1st commit the code was at its simplest and functional, 3 methods.
+                - the challenge with that implemantation is that the code gets messy quickly as the project grows.
+    
+    ## Final Pattern
+                - I used the "seperation of concerns" implementation to group code and make it easier to locate specific code.
+                - and should the project grow bigger the code will still be easy to maintain.
+
+
