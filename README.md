@@ -40,5 +40,7 @@ determine the destination.
     ## Final Pattern
                 - I used the "seperation of concerns" implementation to group code and make it easier to locate specific code.
                 - and should the project grow bigger the code will still be easy to maintain.
+                - just as MVC pattern the Controllers folder hosts all the logic separated by class
+                - and the Model folder data presentation (object definitions).
 
 
