@@ -9,7 +9,7 @@ namespace MarsRover
     {
         private static int _left;
         private static int _top;
-        private static void AcceptInput()
+       /*  private static void AcceptInput()
         {
             ConsoleKeyInfo key = Console.ReadKey();
         
@@ -36,7 +36,7 @@ namespace MarsRover
             Console.SetCursorPosition(_left, _top);
             Console.Write('*');
         }
-        static void Main(string[] args)
+ */        static void Main(string[] args)
         {
 
             //Reads arguments from the stadard output.
