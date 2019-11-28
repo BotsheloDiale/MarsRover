@@ -23,6 +23,9 @@ namespace MarsRover.Controllers
                 Console.WriteLine("One or more of the Co-ordinates provided is/are invalid:");
                 Console.WriteLine("\t - expected type -> integers only. e.g. 10 17 positive whole numbers \n");
             }
+            else if (InputType == "bounds"){
+                Console.WriteLine("OUT OF BOUNDS - Your startin position is invalid.\n");
+            }
         }
 
         //Check if all the given numbers are positive numbers.
@@ -47,6 +50,10 @@ namespace MarsRover.Controllers
                         }
                         else 
                             throw new System.ArgumentException();
+                        if(Data.x > Data.Limit_x || Data.y > Data.Limit_y){
+                            ValidationFeedback("bounds");
+                            return null;
+                        }
                     } catch{
                         ValidationFeedback("coordinate");
                         return null;

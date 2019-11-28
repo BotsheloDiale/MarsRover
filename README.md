@@ -28,9 +28,7 @@ determine the destination.
         8) 18 10 1 22 E RRRRRRRRRRRL   Result => 1 22 W
         9) 8 10 1 2 E MMLMRMMRRMML     Result => 3 1 S
 
-    # Why manual input testing
-        - simply because i was testing as i was building classes and these cases test for most of the forseable use cases.
-        - TDD is simpler for me cause then by the time you intergrate there's less snags.
+    # Theres a simple test script included in the project folder.
 
 # DESIGN DECISION
     ## Early stages 
